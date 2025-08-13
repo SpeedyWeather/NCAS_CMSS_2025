@@ -13,7 +13,7 @@ You don't need to know a lot of Julia to run SpeedyWeather, however I list here 
 ## Arrays 
 * Definition is identical to Python's lists
 * Indexing is also with `array[i]` BUT:
-    * Indices start at 1
+    * **Indexing starts at 1**
     * You can index the first/last element of an array with the `begin` and `end` keywords. `begin` is always 1, but might be helpful if you struggle to remember to use 1 instead of 0... `end` on the other hand is a very useful replacement to the `-1` indexing in Python, which is forbidden in Julia.
 * `array[:]` also works, and you can index multi-dimensional arrays with `array[i,j]`
 * `...` unpacks a tuple (equivalent to `*` in python)
